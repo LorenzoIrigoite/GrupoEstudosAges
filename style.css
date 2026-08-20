@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+.CalculatorBody {
+    text-align: center;
+    width: 500px;
+    height: 700px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.ResponseBody {
+    background-color: red;
+    width: 100%;
+    height: 100px !important;
+}
+
+.ExpressionBody {
+    background-color: blue;
+    height: 100px !important;
+    width: 100%;
+}
+
+.ButtonsBody1 {
+    display: grid;
+    grid-template-columns: repeat(2fr);
+    gap: 7px;
+    height: 420px;
+}
+
+.ButtonsBody{
+    display: flex;
+    background-color: blueviolet;
+    height: 100%;
+    
+}
+
+
+button {
+    min-width: 70px;
+    min-height: 70px;
+}
+
+
+.Numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: yellow;
+}
+
+.Operations {
+    display: grid;
+    grid-template-columns: 1fr ;
+    background-color: green;
+}
+
+#zero{
+    grid-column: span 2;
+}
